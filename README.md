@@ -1,6 +1,10 @@
 # Telegram Bot: Raspberry Pi Controller for WS281x LEDs
 
-This is a Telegram bot that lets users control WS281x LEDs connected to a Raspberry Pi.
+This is a Telegram bot that lets users control WS281x LEDs connected to a Raspberry Pi. The bot offers a custom keyboard to control the color, brightness and saturation.
+
+## Screenshots
+
+![screenshot](https://github.com/c-b5r/Telegram-Bot-RPi-WS281x/blob/main/screenshot.png?raw=true)
 
 ## How To Use
 
