@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram Bot: Raspberry Pi Controller for WS281x LEDs
+
+[Service]
+Type=simple
+Environment="TELEGRAM_BOT_TOKEN=TELEGRAM_BOT_TOKEN"
+ExecStart=/bin/bash -c "%h/devel/telegram/Telegram-Bot-RPi-WS281x/main.py"
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
